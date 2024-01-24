@@ -49,7 +49,7 @@ enter.addEventListener("click", ()=>{
                     button.innerText = "DELETE"
                     break;
                 case 3:
-                    button.innerText = "NOT VALID"
+                    button.innerText = "FINITO"
                     
                     break;    
                 default:

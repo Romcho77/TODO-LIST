@@ -1,0 +1,226 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(./../game-epic-3.jpg) no-repeat fixed;
+    background-size: cover;
+    
+}
+
+
+.top{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(54, 59, 71, 0.5);
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.TODO{
+    display: flex;
+    width: 20%;
+    justify-content: end;
+    color: beige;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.pTODO{
+    transition: 0.3s;
+}
+
+.TODO>p:hover{
+    color: aquamarine;
+    
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.divInput{
+    /* margin-left: 20px; */
+    width: 40%;
+    height: 60%;
+}
+
+.input{
+    margin-left: 20px;
+    width: 90%;
+    height: 100%;
+    background-color: bisque;
+    border: 2px dotted aqua;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.input:hover{
+    background-color: aquamarine;
+    border: 2px solid #22242d;
+}
+
+.divEnter{
+    width: 80px;
+    height: 40%;
+}
+
+
+.enter{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #363b47;
+    font-size: 16px;
+    background-color: bisque;
+    border: 2px dotted aqua;
+    transition: 0.3s;
+}
+.enter:hover{
+    background-color: aquamarine;
+    border: 2px solid #22242d;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #363b47;
+}
+
+.nav{
+    height: 100%;
+    width: 40%;
+    color: beige;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 0.3s;
+}
+.navTitle{
+    width: 150px;
+    transition: 0.3s;
+}
+#navTitle{
+
+    transition: 0.9s;
+}
+
+#navTitle:hover{
+    color: aquamarine;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+button{
+    
+    width: 90px;
+    height: 40px;
+    border: 2px dotted aqua;
+    border-radius: 50%;
+    background-color: bisque;
+    font-size: 15px;
+    transition: 0.3s;
+
+}
+
+button:hover{
+    background-color: aquamarine;
+    border: 2px solid #22242d;
+    font-size: 14px;
+    font-weight: bolder;
+    
+}
+
+.bottom{
+    width: 100%;
+    
+    background-color: rgba(54, 59, 71, 0.6);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.taskDiv{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 228, 196, 0.4);
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 2%;
+    gap: 20px;
+}
+.taskDiv>p{
+    color: #22242d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 228, 196, 0.4);
+    border: 2px dotted aqua;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.taskDiv>p:hover{
+    background-color: aquamarine;
+    border: 2px solid #22242d;
+    /* font-size: 14px; */
+    font-weight: bolder;
+    color: #363b47;
+}
+.taskLogo{
+    font-size: 40px;
+    color: rgba(255, 228, 196, 1);
+    transition: 0.3s;
+}
+.taskLogo:hover{
+    
+    color: aqua;
+    
+}
+
+.taskDivButtons{
+    display: flex;
+    gap: 50px;
+}
+
+.taskText{
+    text-align: center;
+    color: beige;
+}
+.taskButton4{
+    font-size: 13px;
+    color: black;
+    background-color: rgba(184, 13, 13, 0.4);
+}
+.taskButton1{
+    font-size: 13px;
+    color: black;
+    background-color: rgba(13, 184, 16, 0.4);
+}
+
+.divGreen{
+    background: rgba(60, 159, 31, 0.996);
+}
+.divRed{
+    background: rgb(213, 53, 12, 0.8);
+}
+
+    /* a
+        display: flex
+        align-items: center
+        justify-content: center
+        text-decoration: none
+        color: gray
+        height: 80%
+        width: 10%
+
+        a:hover
+            background: lightblue
+            border-radius: 5px
+            color: white */
